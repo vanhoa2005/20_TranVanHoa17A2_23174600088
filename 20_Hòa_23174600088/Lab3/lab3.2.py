@@ -1,7 +1,7 @@
 # XỬ LÝ DỮ LIỆU NULL
 import pandas as pd
 # 1. Kiểm tra xem trong stocks1 có dữ liệu Null nào không
-stocks1 = pd.read_csv('21_Hòa_28022005\Lab3\stocks1.csv')
+stocks1 = pd.read_csv('D:/17A2KHDL/20_Hòa_23174600088\Lab3\stocks1.csv')
 print("\nKiểm tra dữ liệu Null:")
 print(stocks1.isnull().sum())
 

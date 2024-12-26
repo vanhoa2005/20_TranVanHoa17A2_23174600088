@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. Đọc file stocks2.csv vào DataFrame stocks2
-stocks2 = pd.read_csv('21_Hòa_28022005\Lab3\stocks2.csv')
+stocks2 = pd.read_csv('D:/17A2KHDL/20_Hòa_23174600088\Lab3\stocks2.csv')
 
 # 2. Gộp stocks1 và stocks2 thành DataFrame mới tên là stocks
 # Giả sử stocks1 đã được đọc trước đó

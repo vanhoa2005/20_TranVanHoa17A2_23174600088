@@ -5,8 +5,8 @@ def read_file(file_path):
     with open(file_path, 'r') as file:
         return [line.strip() for line in file.readlines()]
 
-efficiency = read_file('21_Hòa_28022005\Lab2\efficiency.txt')
-shifts = read_file('21_Hòa_28022005\Lab2\shifts.txt')
+efficiency = read_file('D:/17A2KHDL/20_Hòa_23174600088\Lab2\efficiency.txt')
+shifts = read_file('D:/17A2KHDL/20_Hòa_23174600088\Lab2\shifts.txt')
 
 # 2. Tạo numpy array np_shifts từ list shifts và kiểm tra kiểu dữ liệu
 np_shifts = np.array(shifts, dtype='U10')

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Đọc dữ liệu từ file CSV
-file_path = '21_Hòa_28022005\Lab2\diem_hoc_phan.csv'
+file_path = 'D:/17A2KHDL/20_Hòa_23174600088\Lab2\diem_hoc_phan.csv'
 data = pd.read_csv(file_path)
 
 # Chuyển đổi dữ liệu sang mảng NumPy
